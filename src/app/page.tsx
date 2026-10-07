@@ -30,14 +30,14 @@ export default function Home() {
           </FadeIn>
           <FadeIn delay={0.4}>
             <div className="flex gap-4 items-center">
-              <Link 
-                href="#work" 
+              <Link
+                href="#work"
                 className="bg-[var(--foreground)] text-[var(--background)] px-6 py-3 rounded-md font-medium hover:bg-[var(--foreground)]/90 transition-colors"
               >
                 Explore my work
               </Link>
-              <Link 
-                href="#about" 
+              <Link
+                href="#about"
                 className="px-6 py-3 rounded-md font-medium hover:bg-[var(--muted)] transition-colors"
               >
                 About me
@@ -58,7 +58,7 @@ export default function Home() {
           </FadeIn>
 
           <div className="flex flex-col gap-32">
-            
+
             {/* PROJECT 1: CAREERPILOT */}
             <FadeIn>
               <div className="group flex flex-col gap-8">
@@ -78,12 +78,12 @@ export default function Home() {
                     View case study <ArrowRight className="w-4 h-4" />
                   </Link>
                 </div>
-                
+
                 <Link href="/work/careerpilot" className="block relative overflow-hidden transition-transform duration-700 ease-out group-hover:scale-[1.02]">
                   {/* Actual Screenshot */}
-                  <img 
-                    src="/projects/careerpilot/1.png" 
-                    alt="CareerPilot Dashboard" 
+                  <img
+                    src="/projects/careerpilot/1.png"
+                    alt="CareerPilot Dashboard"
                     className="w-full h-auto object-contain rounded-xl border border-[var(--border)]"
                   />
                 </Link>
@@ -109,12 +109,12 @@ export default function Home() {
                     View case study <ArrowRight className="w-4 h-4" />
                   </Link>
                 </div>
-                
+
                 <Link href="/work/videotube" className="block relative overflow-hidden transition-transform duration-700 ease-out group-hover:scale-[1.02]">
                   {/* Actual Screenshot */}
-                  <img 
-                    src="/projects/videotube/1.png" 
-                    alt="VideoTube Home Screen" 
+                  <img
+                    src="/projects/videotube/1.png"
+                    alt="VideoTube Home Screen"
                     className="w-full h-auto object-contain rounded-xl border border-[var(--border)]"
                   />
                 </Link>
@@ -140,12 +140,12 @@ export default function Home() {
                     View case study <ArrowRight className="w-4 h-4" />
                   </Link>
                 </div>
-                
+
                 <Link href="/work/krishisetu" className="block relative overflow-hidden transition-transform duration-700 ease-out group-hover:scale-[1.02]">
                   {/* Actual Screenshot */}
-                  <img 
-                    src="/projects/krishisetu/1.png" 
-                    alt="KrishiSetu Dashboard" 
+                  <img
+                    src="/projects/krishisetu/1.png"
+                    alt="KrishiSetu Dashboard"
                     className="w-full h-auto object-contain rounded-xl border border-[var(--border)]"
                   />
                 </Link>
@@ -159,7 +159,7 @@ export default function Home() {
       {/* ABOUT & BEYOND SECTION */}
       <section id="about" className="py-32 px-6 border-t border-[var(--border)] bg-[var(--muted)]/20 overflow-hidden">
         <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-20">
-          
+
           <div>
             <FadeIn>
               <h2 className="text-3xl font-medium tracking-tight mb-8">About</h2>
@@ -167,7 +167,7 @@ export default function Home() {
             <div className="text-lg text-[var(--foreground)] leading-relaxed space-y-6">
               <FadeIn delay={0.1}>
                 <p>
-                  I'm Varun, an Electronics & Communication Engineering student at NSUT (CGPA: 7.24).
+                  I'm Varun, an Electronics & Communication Engineering student at NSUT.
                 </p>
               </FadeIn>
               <FadeIn delay={0.2}>
@@ -191,12 +191,12 @@ export default function Home() {
               <FadeIn delay={0.1}>
                 <h3 className="text-sm font-medium text-[var(--muted-foreground)] uppercase tracking-wide mb-4">Achievements</h3>
                 <ul className="space-y-3 font-medium text-[var(--foreground)]">
-                  <li className="flex items-start gap-3"><ArrowRight className="w-4 h-4 mt-1 text-[var(--accent)] flex-shrink-0"/> Solved 300+ Data Structures & Algorithms problems.</li>
-                  <li className="flex items-start gap-3"><ArrowRight className="w-4 h-4 mt-1 text-[var(--accent)] flex-shrink-0"/> Earned SQL-50 Badge on LeetCode.</li>
-                  <li className="flex items-start gap-3"><ArrowRight className="w-4 h-4 mt-1 text-[var(--accent)] flex-shrink-0"/> Participated in 4 hackathons (Team Lead in 2).</li>
+                  <li className="flex items-start gap-3"><ArrowRight className="w-4 h-4 mt-1 text-[var(--accent)] flex-shrink-0" /> Solved 350+ Data Structures & Algorithms problems.</li>
+                  <li className="flex items-start gap-3"><ArrowRight className="w-4 h-4 mt-1 text-[var(--accent)] flex-shrink-0" /> Earned SQL-50 Badge on LeetCode.</li>
+                  <li className="flex items-start gap-3"><ArrowRight className="w-4 h-4 mt-1 text-[var(--accent)] flex-shrink-0" /> Participated in 4 hackathons (Team Lead in 2).</li>
                 </ul>
               </FadeIn>
-              
+
               <FadeIn delay={0.2}>
                 <h3 className="text-sm font-medium text-[var(--muted-foreground)] uppercase tracking-wide mb-4">Leadership</h3>
                 <div className="font-medium text-[var(--foreground)]">
